@@ -8,5 +8,56 @@
 
 body {
   background: #000;
-  height: calc(100vh - 150px);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER */
+
+header {
+  text-align: right;
+  color: white;
+}
+
+.right-header {
+  padding: 15px 10px;
+
+  margin-right: 10px;
+  margin-top: 15px;
+
+  background: #4a4a4a;
+
+  border-radius: 4px;
+}
+
+/* MAIN */
+
+.container {
+  width: calc(100 / 7);
+  margin: 2vh 5vw;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-icon {
+  position: relative;
+}
+
+.user-name {
+  padding: 10px;
+  margin-bottom: 20px;
+
+  background-color: #4a4a4a;
+  color: white;
+
+  position: absolute;
+
+  bottom: 10px;
+  left: 0;
 }
