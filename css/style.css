@@ -35,23 +35,23 @@ header {
 /* MAIN */
 
 .container {
-  width: calc(100 / 7);
-  margin: 2vh 5vw;
+  width: calc (100 / 7);
+  margin: 30px auto 20px;
 
   display: flex;
   flex-wrap: wrap;
 
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 .user-icon {
   position: relative;
+  margin: 15px 10px;
 }
 
 .user-name {
   padding: 10px;
-  margin-bottom: 20px;
 
   background-color: #4a4a4a;
   color: white;
@@ -60,4 +60,50 @@ header {
 
   bottom: 10px;
   left: 0;
+}
+
+/* FOOTER */
+footer {
+  background: #222222;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-icons {
+  display: flex;
+
+  font-size: 1.5rem;
+  list-style-type: none;
+  color: white;
+}
+
+.flex-icon {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px 10px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+#shere {
+  color: #4bcb00;
+}
+
+.red-text {
+  display: flex;
+  align-items: center;
+
+  background: #4a4a4a;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  color: red;
 }
